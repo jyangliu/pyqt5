@@ -14,3 +14,7 @@ pyside2−uic ui\demo.ui > ui_demo.py
 pyuic5 ui\demo.ui > ui_demo.py
 ```
 转换之后的py文件需要转换成utf-8编码
+
+## 控件
+- ComboBox:下拉表
+- LineEdit:单行文本输入
