@@ -1,6 +1,6 @@
 # pyqt5
 
-# 依赖
+## 依赖
 pip install pyside2
 
 ## 将qt designer生成的.ui文件转为.py文件
