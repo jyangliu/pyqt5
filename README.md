@@ -31,6 +31,10 @@ pyuic5 ui\demo.ui > ui_demo.py
 ##### Label常用信号
 - 鼠标滑过Label控件触发：linkHovered()
 - 鼠标单击Label控件触发：linkActivated()
+
+#### QLineEdit
+- 基本功能：输入单行文本
+- EchoMode(回显模式)：四种回显模式，Normal(正常显示)，NoEcho(不显示到屏幕)，Password(屏幕上显示点)，PassWordEchoOnEdit(先正常显示，之后变成点)
 #### ComboBox:下拉表
 #### LineEdit:单行文本输入
 
