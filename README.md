@@ -25,9 +25,9 @@ pyuic5 ui\demo.ui > ui_demo.py
 
 
 ## 窗口类型
-- QWidget
+- QWidget：
 不确定窗口的用途，就使用QWidget。
-- QDialog
+- QDialog：
 对话窗口的基类。没有菜单栏、工具栏、状态栏。
-- QMainWindow
+- QMainWindow：
 可以包含菜单栏、工具栏、状态栏和标题栏，是最常见的窗口形式。
