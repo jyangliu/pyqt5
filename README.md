@@ -35,11 +35,13 @@ pyuic5 ui\demo.ui > ui_demo.py
 #### QLineEdit
 - 基本功能：输入单行文本
 - EchoMode(回显模式)：四种回显模式，QLineEdit.Normal(正常显示)，QLineEdit.NoEcho(不显示到屏幕)，QLineEdit.Password(屏幕上显示点)，QLineEdit.PasswordEchoOnEdit(先正常显示，之后变成点)
-- QLineEdit.setEchoMode 设置不同模式
+- QLineEdit().setEchoMode 设置不同模式
 ##### 限制QLineEdit控件的输入（校验器）
 - 整数校验器：QIntValidator
 - 浮点校验器：QDoubleValidator
 - 正则表达式校验器：QRegExpValidator
+##### 通过掩码限制QLineEdit控件输入
+- 限制输入IP地址样例：QLineEdit().setInputMask('000.000.000.000;_')
 
 #### ComboBox:下拉表
 #### LineEdit:单行文本输入
