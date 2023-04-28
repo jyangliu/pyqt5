@@ -28,6 +28,9 @@ pyuic5 ui\demo.ui > ui_demo.py
 - setText(): 设置文本内容
 - selectedText(): 返回所选择的字符
 - setWordWarp():设置是否允许换行
+##### Label常用信号
+- 鼠标滑过Label控件触发：linkHovered()
+- 鼠标单击Label控件触发：linkActivated()
 #### ComboBox:下拉表
 #### LineEdit:单行文本输入
 
