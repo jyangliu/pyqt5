@@ -16,8 +16,20 @@ pyuic5 ui\demo.ui > ui_demo.py
 转换之后的py文件需要转换成utf-8编码
 
 ## 控件
-- ComboBox:下拉表
-- LineEdit:单行文本输入
+### 控件通用方法
+- setToolTip:为控件设置提示消息
+
+### 基本控件使用
+#### Label
+- setAlignment():设置文本对齐方式
+- setIndent():设置文本缩进
+- text():获取文本内容
+- setBuddy():设置伙伴关系
+- setText(): 设置文本内容
+- selectedText(): 返回所选择的字符
+- setWordWarp():设置是否允许换行
+#### ComboBox:下拉表
+#### LineEdit:单行文本输入
 
 ## 信号(signal)和槽(slot)
 
